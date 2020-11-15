@@ -11,7 +11,7 @@ function Nav() {
     }
 
     return (
-        <div className="jumbotron jumbotron-fluid">
+        <div className="jumbotron jumbotron-fluid bg-dark text-light">
             <div className="container">
                 <h1 className="display-4" style={styles.center}>Employee Directory</h1>
                 <p className="lead"  style={styles.padding}>Search for any of your employees!</p>

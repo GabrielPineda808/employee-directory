@@ -1,8 +1,13 @@
 import Nav from './Components/Navbar'
+import Search from './Components/Search'
+
 
 function App() {
   return (
-    <Nav />
+    <div>
+      <Nav />
+      <Search />
+    </div>
   );
 }
 
