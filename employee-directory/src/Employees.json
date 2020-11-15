@@ -1,0 +1,39 @@
+[
+    {
+        "id" : 1,
+        "name": "Gabriel Pineda",
+        "email": "gabriel@gmail.com",
+        "department":"Development"
+    },
+    {
+        "id" : 2,
+        "name": "Josh Hart",
+        "email": "josh@gmail.com",
+        "department":"Sports"
+    },{
+        "id" : 3,
+        "name": "Wardell Curry",
+        "email": "wardell@gmail.com",
+        "department":"Sports"
+    },{
+        "id" : 4,
+        "name": "Steve Young",
+        "email": "steve@gmail.com",
+        "department":"Sports"
+    },{
+        "id" : 5,
+        "name": "Tom Brady",
+        "email": "tom@gmail.com",
+        "department":""
+    },{
+        "id" : 6,
+        "name": "Mac DeMarco",
+        "email": "mac@gmail.com",
+        "department":"Music"
+    },{
+        "id" : 7,
+        "name": "Kid Cudi",
+        "email": "kidcudi@gmail.com",
+        "department":"Music"
+    }
+]
