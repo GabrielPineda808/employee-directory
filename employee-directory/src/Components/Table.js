@@ -1,10 +1,15 @@
 import React from 'react'
+import Items from './TableItems'
 
-function Table() {
-    
+function Table(props) {
+    const styles = {
+        margin : {
+            marginTop : 50
+        }
+    }
 
     return (
-        <table className="table table-striped table-dark">
+        <table className="table table-striped table-dark table-bordered table-hover " style={styles.margin}>
             <thead>
                 <tr>
                 <th scope="col">#</th>
@@ -13,26 +18,7 @@ function Table() {
                 <th scope="col">Department</th>
                 </tr>
             </thead>
-            <tbody>
-                <tr>
-                <th scope="row">1</th>
-                <td>Mark</td>
-                <td>Otto</td>
-                <td>@mdo</td>
-                </tr>
-                <tr>
-                <th scope="row">2</th>
-                <td>Jacob</td>
-                <td>Thornton</td>
-                <td>@fat</td>
-                </tr>
-                <tr>
-                <th scope="row">3</th>
-                <td>Larry</td>
-                <td>the Bird</td>
-                <td>@twitter</td>
-                </tr>
-            </tbody>
+            <Items key={props.id} id={props.id} name={props.name} email={props.email} department={props.department} />
             </table>
     )
     }
